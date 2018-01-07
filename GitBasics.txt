@@ -2,17 +2,14 @@ For creating new repositories:
 	git init : initializes the repos. with a .git file
 
 	git add . : 
-	adds all files in the current folder to the git 
-	repos you just made
+		adds all files in the current folder to the git 
+		repos you just made
 
 	git commit -m "<message>" : 
-	commits the files you added to the repos.
+		commits the files you added to the repos.
 
 	git remote add origin https://github.com/NickGraeff/<name>.git :
-	connects this repository to the one you made on github
+		connects this repository to the one you made on github
 
 	git push origin master : 
-	pushes any changes you made to the remote server on github
-
-
-					
+		pushes any changes you made to the remote server on github

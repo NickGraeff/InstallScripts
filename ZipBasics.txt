@@ -1,0 +1,10 @@
+//To zip a file
+zip <file1> <file2> ... <filen>
+
+//To unzip a file
+unzip <file>.zip
+
+//To extract a file compressed with tar
+tar xvf filename.tar
+
+//tar arguments and their meanings
