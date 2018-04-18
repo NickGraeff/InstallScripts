@@ -1,11 +1,14 @@
-sudo apt-get install terminator
-sudo apt-get install git
-sudo apt-get install vim-gtk
-sudo apt-get install ddd
-sudo apt-get install cgdb
-sudo apt-get install python-pip
-sudo apt-get install python-matplotlib
-sudo apt-get install python-numpy
+sudo ./VBoxLinuxAdditions.run
+sudo apt-get -y install linux-headers-generic
+sudo apt-get -y install terminator
+sudo apt-get -y install git
+sudo apt-get -y install vim-gtk
+sudo apt-get -y install ddd
+sudo apt-get -y install cgdb
+sudo apt-get -y install python-pip
+sudo apt-get -y install python-matplotlib
+sudo apt-get -y install python-numpy
+cd ~
 git clone https://www.github.com/NickGraeff/vimrc.git
 cd vimrc
 cp -r .vim ../
